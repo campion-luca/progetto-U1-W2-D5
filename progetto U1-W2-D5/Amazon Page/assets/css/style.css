@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* setto font a tutto il body */
+    background-color: #EAEDEE;
+}
+
+#margin-body {
+    /* margine per tuttol il body uguale */
+    margin-left: 1.9em;
+    margin-right: 1.9em;
+}
+
+#logoPic {
+    /* foto logo amazon */
+    box-sizing: border-box;
+    /* definisco io la sua grandezza */
+    display: inline-block;
+    /* resta block, occupando il suo spazio e basta ma mettendosi inline, per andare a capo con la nav bar */
+    height: 1.8em;
+    /* grandezza del logo */
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+.headerLogo {
+    /* container del logo amazon */
+    background-color: #232F3E;
+    /* colore dello sfondo del logo amazon */
+    padding-left: 1.5em;
+    /* spaziatura a sinistra del logo */
+    padding-top: 0.5em;
+    /* spaziatura sopra il logo */
+    padding-bottom: 0.5em;
+    /* spaziatura sotto il logo */
+}
+
+.headerNav {
+    /* container del nav */
+    background-color: #364758;
+    /* colore dello sfondo della nav bar */
+    padding-left: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+#navBarId,
+#navBarList {
+    /* specifiche della lista / nav */
+    display: inline;
+    /* metto la lista orizzontale , nav bar */
+    list-style-type: none;
+    /* rimuovo i punti dall'elenco puntato */
+    color: white;
+    /* cambio il colore del testo */
+    margin: 0;
+    /* tolgo il margine */
+    padding: 0;
+    /* tolgo il padding */
+}
+
+#navBarList {
+    /* elementi della navbar */
+    padding: 0.6em;
+    font-size: 0.8em;
+}
+
+.orangeContainer {
+    /* intestazione arancione */
+    background-color: #F56601;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 2em;
+}
+
+#orangeId {
+    /* scritta dentro container arancione */
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.holidayGuides {
+    /* foto della guida ai regali */
+    background-image: url("../images/bg-image.png");
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.container_foto {
+    background-color: #FFFFFF;
+    padding-top: 0.7em;
+    padding-left: 1.8em;
+    padding-bottom: 1.2em;
+    margin-bottom: 2em;
+}
+
+.giftPics {
+    max-width: 20%;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    border-radius: 2em;
+    display: inline;
+    margin: 0 auto;
+    box-shadow: 0.4em 0.4em 1.3em 0.3em #d5d5d5;
+}
+
+span {
+    color: #007185;
+    font-size: 0.8em;
+}
+
+.textUnderPic {
+    text-align: center;
+}
+
+.bottomTwo {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.ancora {
+    background-color: #354859;
+    color: white;
+    margin-bottom: 0;
+}
+
+.a {
+    color: white;
+}
+
+.logoPicFooter {
+    background-color: #232F3E;
+}
+
+#logoFooter {
+    height: 2.3em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
